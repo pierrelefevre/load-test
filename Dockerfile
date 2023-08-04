@@ -5,5 +5,5 @@ run apt-get autoremove -y
 run apt-get install siege -y
 
 arg URL
-
-cmd siege -c 255 ${URL}
+env ENDPOINT_URL = ${URL}
+cmd echo $ENDPOINT_URL && siege -c 255 $ENDPOINT_URL
