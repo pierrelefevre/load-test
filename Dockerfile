@@ -7,4 +7,4 @@ run apt-get install hey -y
 
 #cmd siege -c 255 "https://cloud.cbh.kth.se"
 #cmd siege -c 255 "https://api.cloud.cbh.kth.se/deploy/hello"
-cmd hey 'https://api.cloud.cbh.kth.se/deploy/hello'
+cmd hey 'https://orc.fyi'
