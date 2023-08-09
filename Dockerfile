@@ -11,7 +11,7 @@ arg url 'https://orc.fyi/courses/kth/sf1624'
 
 workdir /app
 run echo pinging $url > index.html
-run python -m http.server $PORT
+run python -m http.server $PORT &
 run echo pinging $url
 
 
