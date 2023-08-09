@@ -7,7 +7,7 @@ run apt-get install hey -y
 run apt-get update && apt-get install -y python3 python3-pip
 run python3 -m pip install --upgrade pip
 
-arg url 'https://orc.fyi/courses/kth/sf1624' 
+env url 'https://orc.fyi/courses/kth/sf1624' 
 # "https://api.cloud.cbh.kth.se/deploy/hello"
 # "https://cloud.cbh.kth.se"
 
