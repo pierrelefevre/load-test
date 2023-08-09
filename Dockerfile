@@ -15,8 +15,6 @@ env PORT=8080
 
 workdir /app
 run echo pinging $url > index.html
-run python -m http.server $PORT &
-run echo pinging $url
 
-cmd siege -c 255 $url
-
+cmd python3 -m http.server $PORT & \
+	siege -c 255 $url
