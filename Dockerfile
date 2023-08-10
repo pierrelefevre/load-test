@@ -4,7 +4,7 @@ run apt-get upgrade -y
 run apt-get autoremove -y
 run apt-get install siege -y
 run apt-get install hey -y
-run apt-get update && apt-get install -y python3 python3-pip
+run apt-get install -y python3 python3-pip
 run python3 -m pip install --upgrade pip
 
 env url='https://orc.fyi/courses/kth/sf1624' 
