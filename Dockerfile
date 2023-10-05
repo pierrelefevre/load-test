@@ -7,7 +7,7 @@ run apt-get install hey -y
 run apt-get install -y python3 python3-pip
 run python3 -m pip install --upgrade pip
 
-env url='https://orc.fyi/courses/kth/sf1624' 
+env url='https://www.tradera.com/item/260103/610187261/samsung-galaxy-flip-4' 
 env PORT=8080
 
 # "https://api.cloud.cbh.kth.se/deploy/hello"
